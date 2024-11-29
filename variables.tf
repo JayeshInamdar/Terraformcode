@@ -15,5 +15,6 @@ variable "db_user_password" {
   validation {
     condition = length(var.db_user_password) > 8
     error_message = "DB user password must not be empty"
+#addedlinetotestintegration
   }
 }
